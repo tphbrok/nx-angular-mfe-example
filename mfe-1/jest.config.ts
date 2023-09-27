@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'mfe-poc',
-  preset: '../../jest.preset.js',
+  displayName: 'mfe-1',
+  preset: '../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/mfe-poc',
+  coverageDirectory: '../coverage/mfe-1',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
